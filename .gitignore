@@ -1,6 +1,7 @@
 # Don't include generated docs, repo just for generation tools.
 docs/
 fish.docset/
+fish.tgz
 
 # Ignore any image files created during generation process.
 *.png
