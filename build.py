@@ -62,9 +62,6 @@ def process_html(filename, cursor):
 
     # index.html contains introductory tutorial, index as Guide and Sections
     if filename == "index.html":
-        cur.execute("INSERT OR IGNORE INTO searchIndex(name, type, path)"
-                    "VALUES ('Tutorial', 'Guide', 'index.html');")
-
         for tag in fish_soup.find_all(class_="anchor"):
             name = tag.parent.text[1:]
 
