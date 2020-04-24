@@ -1,5 +1,7 @@
 # fish-dash
 
+Following an update to the Fish documentation format, this repository is now archived. You can find a new Fish docset generator at: https://github.com/schrodincat/dash-fish
+
 Tools to allow for the generation of a [Dash](https://kapeli.com/dash) docset for the [fish shell](http://fishshell.com). This docset can be imported into Dash, [Zeal](http://zealdocs.org), or any similar offline documentation browser.
 
 ## Requirements
